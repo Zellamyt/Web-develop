@@ -1,0 +1,473 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    /* html,body{
+  height: 100%;
+}
+.page{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+main{
+  flex: 1 1 auto;
+} */
+
+body{
+    background-color:#DBAFA0;
+}
+
+header{
+	
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    
+    background: #49243E;
+    
+    }
+    h1{
+        /* CharSheet */
+    position: absolute;
+    width: 254px;
+    height: 10px;
+    left: 135px;
+    top: 5px;
+    
+    font-family: 'Linden Hill';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 97px;
+    
+    color: #FFFFFF;
+    }
+    .menu{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    }
+   .profile_icon{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+   }
+
+.wing{
+        /* Rectangle 20 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 350px;
+    top: 200px;
+    
+    /* coll 3 */
+    background: #BB8493;
+    border: 6px solid #000000;
+    border-radius: 40px;
+    
+    }
+.Sign_in{
+    position: absolute;
+    width: 250px;
+    height: 114px;
+    left: 275px;
+    top: 20px;
+
+    font-family: 'Linden Hill';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 97px;
+
+    color: #000000;
+
+    }
+
+    .Gmail{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 600px;
+        height: 40px;
+        left: 100px;
+        top: 150px;
+        
+        background: #DBAFA0;
+        border: 3px solid #000000;
+        border-radius: 60px;
+        }
+        .Rect1{
+            /* Rectangle 24 */
+        
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        right: -3px;
+        top: -3px;
+        
+        /* grey 1 */
+        background: #D9D9D9;
+        border: 3px solid #000000;
+        border-radius: 60px;
+        
+        }
+        .Gmail_in{
+            /* Gmail */
+        
+        position: absolute;
+        width: 163px;
+        height: 32px;
+        left: 10px;
+        top: -5px;
+        
+        /* header 2 alt */
+        font-family: 'Linden Hill';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 43px;
+        
+        color: #000000;
+        }
+        
+        
+        
+        
+        .Name{
+            box-sizing: border-box;
+            
+            position: absolute;
+            width: 600px;
+            height: 40px;
+            left: 100px;
+            top: 225px;
+            
+            background: #DBAFA0;
+            border: 3px solid #000000;
+            border-radius: 60px;
+            }
+            .Rect2{
+                /* Rectangle 24 */
+            
+            box-sizing: border-box;
+            
+            position: absolute;
+            width: 400px;
+            height: 40px;
+            right: -3px;
+            top: -3px;
+            
+            /* grey 1 */
+            background: #D9D9D9;
+            border: 3px solid #000000;
+            border-radius: 60px;
+            
+            }
+            .Name_in{
+                /* Gmail */
+            
+            position: absolute;
+            width: 163px;
+            height: 32px;
+            left: 10px;
+            top: -5px;
+            
+            /* header 2 alt */
+            font-family: 'Linden Hill';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 43px;
+            
+            color: #000000;
+            
+            
+            }
+        
+             
+        
+            .Gender{
+                box-sizing: border-box;
+                
+                position: absolute;
+                width: 600px;
+                height: 40px;
+                left: 100px;
+                top: 300px;
+                
+                background: #DBAFA0;
+                border: 3px solid #000000;
+                border-radius: 60px;
+                }
+                .Rect3{
+                    /* Rectangle 24 */
+                
+                box-sizing: border-box;
+                
+                position: absolute;
+                width: 400px;
+                height: 40px;
+                right: -3px;
+                top: -3px;
+                
+                /* grey 1 */
+                background: #D9D9D9;
+                border: 3px solid #000000;
+                border-radius: 60px;
+                
+                }
+                .Gender_in{
+                    /* Gmail */
+                
+                position: absolute;
+                width: 163px;
+                height: 32px;
+                left: 10px;
+                top: -5px;
+                
+                /* header 2 alt */
+                font-family: 'Linden Hill';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 43px;
+                
+                color: #000000;
+                
+                
+                }
+
+
+
+                .password1{
+                    box-sizing: border-box;
+                    
+                    position: absolute;
+                    width: 600px;
+                    height: 40px;
+                    left: 100px;
+                    top: 375px;
+                    
+                    background: #DBAFA0;
+                    border: 3px solid #000000;
+                    border-radius: 60px;
+                    }
+                    .Rect4{
+                        /* Rectangle 24 */
+                    
+                    box-sizing: border-box;
+                    
+                    position: absolute;
+                    width: 400px;
+                    height: 40px;
+                    right: -3px;
+                    top: -3px;
+                    
+                    /* grey 1 */
+                    background: #D9D9D9;
+                    border: 3px solid #000000;
+                    border-radius: 60px;
+                    
+                    }
+                    .password1_in{
+                        /* Gmail */
+                    
+                    position: absolute;
+                    width: 163px;
+                    height: 32px;
+                    left: 10px;
+                    top: -5px;
+                    
+                    /* header 2 alt */
+                    font-family: 'Linden Hill';
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 43px;
+                    
+                    color: #000000;
+                    
+                    
+                    }
+
+
+                    .password2{
+                        box-sizing: border-box;
+                        
+                        position: absolute;
+                        width: 600px;
+                        height: 40px;
+                        left: 100px;
+                        top: 450px;
+                        
+                        background: #DBAFA0;
+                        border: 3px solid #000000;
+                        border-radius: 60px;
+                        }
+                        .Rect5{
+                            /* Rectangle 24 */
+                        
+                        box-sizing: border-box;
+                        
+                        position: absolute;
+                        width: 400px;
+                        height: 40px;
+                        right: -3px;
+                        top: -3px;
+                        
+                        /* grey 1 */
+                        background: #D9D9D9;
+                        border: 3px solid #000000;
+                        border-radius: 60px;
+                        
+                        }
+                        .password2_in{
+                            /* Gmail */
+                        
+                        position: absolute;
+                        width: 163px;
+                        height: 32px;
+                        left: 10px;
+                        top: -5px;
+                        
+                        /* header 2 alt */
+                        font-family: 'Linden Hill';
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 43px;
+                        
+                        color: #000000;
+                        
+                        
+                        }
+            
+            
+
+.accept{
+    position: relative;
+    width: 200px;
+    height: 50px ;
+    top: 515px;
+    left: 300px;
+
+    background-color:#704264;
+    border-radius:60px;
+
+}
+                    
+.Accept{
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    left: 55px;
+    top: 5px;
+    
+    /* header 2 alt */
+    font-family: 'Linden Hill';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    
+    color: #000000;
+}
+
+/* footer */
+footer{
+    position: absolute;
+    width: 100%;
+   top: 850px;
+    background-color: #704264
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+ .socialIcons a:hover{
+    background-color: #49243E;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+	font-family: 'Linden Hill', serif;
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #49243E;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+	
+} 

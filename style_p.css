@@ -1,0 +1,691 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    /* html,body{
+  height: 100%;
+}
+.page{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+main{
+  flex: 1 1 auto;
+}
+
+
+
+
+/* html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+}
+footer {
+    background-color: #704264;
+    padding: 20px;
+    text-align: center;
+    color: white;
+} */
+
+body{
+    background-color:#DBAFA0;
+} 
+
+header{
+	
+width: 100%;
+height: 90px;
+left: 0px;
+top: 0px;
+
+background: #49243E;
+
+}
+h1{
+    /* CharSheet */
+position: absolute;
+width: 254px;
+height: 10px;
+left: 135px;
+top: 5px;
+
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 72px;
+line-height: 97px;
+
+color: #FFFFFF;
+}
+.menu{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 0px;
+top: 0px;
+}
+.profile_icon{
+position: absolute;
+top: 5px;
+right: 20px;
+}
+
+
+
+
+.Profile{
+    /* Rectangle 38 */
+
+position: absolute;
+width: 300px;
+height: 110px;
+left: 600px;
+top: 125px;
+
+/* coll 2 */
+background: #704264;
+border-radius: 60px;
+
+}
+
+.Pro{
+    /* Profile */
+
+position: absolute;
+width: 150px;
+height: 114px;
+left: 40px;
+top: 0px;
+
+/* header 0 alt */
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 72px;
+line-height: 97px;
+
+color: #000000;
+
+
+}
+
+
+
+
+
+
+.wind{
+    /* Rectangle 20 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1200px;
+height: 900px;
+left: 150px;
+top: 280px;
+
+/* coll 3 */
+background: #BB8493;
+border: 6px solid #000000;
+border-radius: 40px;
+
+}
+
+.Photo{
+    box-sizing: border-box;
+
+position: absolute;
+width: 350px;
+height: 400px;
+left: 120px;
+top: 60px;
+
+background: #DBAFA0;
+border: 6px solid #000000;
+border-radius: 60px;
+
+}
+
+.Statystic{
+box-sizing: border-box;
+
+position: absolute;
+width: 1189px;
+height: 80px;
+left: 0px;
+top: 500px;
+
+background: #704264;
+border: 6px solid #000000;
+border-radius: 30px;
+}
+.stats{
+    /* Statistic */
+
+position: absolute;
+width: 140px;
+height: 36px;
+left: 520px ;
+top: 5px;
+
+
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 48px;
+line-height: 65px;
+
+color: #000000;
+
+
+}
+
+
+
+
+
+
+
+.Gmail{
+box-sizing: border-box;
+
+position: absolute;
+width: 600px;
+height: 40px;
+left: 500px;
+top: 200px;
+
+background: #DBAFA0;
+border: 3px solid #000000;
+border-radius: 60px;
+}
+.Rect1{
+    /* Rectangle 24 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 400px;
+height: 40px;
+right: -3px;
+top: -3px;
+
+/* grey 1 */
+background: #D9D9D9;
+border: 3px solid #000000;
+border-radius: 60px;
+
+}
+.Gmail_in{
+    /* Gmail */
+
+position: absolute;
+width: 163px;
+height: 32px;
+left: 10px;
+top: -5px;
+
+/* header 2 alt */
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #000000;
+}
+
+
+
+
+.Name{
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 600px;
+    height: 40px;
+    left: 500px;
+    top: 275px;
+    
+    background: #DBAFA0;
+    border: 3px solid #000000;
+    border-radius: 60px;
+    }
+    .Rect2{
+        /* Rectangle 24 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    right: -3px;
+    top: -3px;
+    
+    /* grey 1 */
+    background: #D9D9D9;
+    border: 3px solid #000000;
+    border-radius: 60px;
+    
+    }
+    .Name_in{
+        /* Gmail */
+    
+    position: absolute;
+    width: 163px;
+    height: 32px;
+    left: 10px;
+    top: -5px;
+    
+    /* header 2 alt */
+    font-family: 'Linden Hill';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    
+    color: #000000;
+    
+    
+    }
+
+     
+
+    .Gender{
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 600px;
+        height: 40px;
+        left: 500px;
+        top: 350px;
+        
+        background: #DBAFA0;
+        border: 3px solid #000000;
+        border-radius: 60px;
+        }
+        .Rect3{
+            /* Rectangle 24 */
+        
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        right: -3px;
+        top: -3px;
+        
+        /* grey 1 */
+        background: #D9D9D9;
+        border: 3px solid #000000;
+        border-radius: 60px;
+        
+        }
+        .Gender_in{
+            /* Gmail */
+        
+        position: absolute;
+        width: 163px;
+        height: 32px;
+        left: 10px;
+        top: -5px;
+        
+        /* header 2 alt */
+        font-family: 'Linden Hill';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 43px;
+        
+        color: #000000;
+        
+        
+        }
+
+    
+
+            .fav_race{
+                box-sizing: border-box;
+                   
+                   position: absolute;
+                   width: 960px;
+                   height: 40px;
+                   left: 120px;
+                   top: 600px;
+                   
+                   background:  #D9D9D9;
+                   border: 3px solid #000000;
+                   border-radius: 60px;
+                   }
+                   .Rect4{
+                       
+                   
+                   box-sizing: border-box;
+                   
+                   position: absolute;
+                   width: 400px;
+                   height: 40px;
+                   left: -3px;
+                   top: -3px;
+                   
+                   background:#DBAFA0 ;
+                   border: 3px solid #000000;
+                   border-radius: 60px;
+                   
+                   }
+                   .fav_race_in{
+                     
+                   position: absolute;
+                   width: 200px;
+                   height: 32px;
+                   left: 10px;
+                   top: -5px;
+                   
+                   font-family: 'Linden Hill';
+                   font-style: italic;
+                   font-weight: 400;
+                   font-size: 32px;
+                   line-height: 43px;
+                   
+                   color: #000000;
+                   }
+
+             .fav_class{
+                    box-sizing: border-box;
+                       
+                       position: absolute;
+                       width: 960px;
+                       height: 40px;
+                       left: 120px;
+                       top: 650px;
+                       
+                       background:  #D9D9D9;
+                       border: 3px solid #000000;
+                       border-radius: 60px;
+                       }
+                     .Rect5{
+                           
+                       
+                       box-sizing: border-box;
+                       
+                       position: absolute;
+                       width: 400px;
+                       height: 40px;
+                       left: -3px;
+                       top: -3px;
+                       
+                       background:#DBAFA0 ;
+                       border: 3px solid #000000;
+                       border-radius: 60px;
+                       
+                       }
+                       .fav_class_in{
+                         
+                       position: absolute;
+                       width: 200px;
+                       height: 32px;
+                       left: 10px;
+                       top: -5px;
+                       
+                       font-family: 'Linden Hill';
+                       font-style: italic;
+                       font-weight: 400;
+                       font-size: 32px;
+                       line-height: 43px;
+                       
+                       color: #000000;
+                       }
+
+
+
+             .count_char{
+                        box-sizing: border-box;
+                           
+                           position: absolute;
+                           width: 960px;
+                           height: 40px;
+                           left: 120px;
+                           top: 700px;
+                           
+                           background:  #D9D9D9;
+                           border: 3px solid #000000;
+                           border-radius: 60px;
+                           }
+                         .Rect6{
+                               
+                           
+                           box-sizing: border-box;
+                           
+                           position: absolute;
+                           width: 400px;
+                           height: 40px;
+                           left: -3px;
+                           top: -3px;
+                           
+                           background:#DBAFA0 ;
+                           border: 3px solid #000000;
+                           border-radius: 60px;
+                           
+                           }
+                           .count_char_in{
+                             
+                           position: absolute;
+                           width: 300px;
+                           height: 32px;
+                           left: 10px;
+                           top: -5px;
+                           
+                           font-family: 'Linden Hill';
+                           font-style: italic;
+                           font-weight: 400;
+                           font-size: 32px;
+                           line-height: 43px;
+                           
+                           color: #000000;
+                           }
+
+
+
+
+
+                           .death_count{
+                            box-sizing: border-box;
+                               
+                               position: absolute;
+                               width: 960px;
+                               height: 40px;
+                               left: 120px;
+                               top: 750px;
+                               
+                               background:  #D9D9D9;
+                               border: 3px solid #000000;
+                               border-radius: 60px;
+                               }
+                             .Rect7{
+                                   
+                               
+                               box-sizing: border-box;
+                               
+                               position: absolute;
+                               width: 400px;
+                               height: 40px;
+                               left: -3px;
+                               top: -3px;
+                               
+                               background:#DBAFA0 ;
+                               border: 3px solid #000000;
+                               border-radius: 60px;
+                               
+                               }
+                               .death_count_in{
+                                 
+                               position: absolute;
+                               width: 300px;
+                               height: 32px;
+                               left: 10px;
+                               top: -5px;
+                               
+                               font-family: 'Linden Hill';
+                               font-style: italic;
+                               font-weight: 400;
+                               font-size: 32px;
+                               line-height: 43px;
+                               
+                               color: #000000;
+                               }
+
+
+
+
+
+                               .date{
+                                box-sizing: border-box;
+                                   
+                                   position: absolute;
+                                   width: 960px;
+                                   height: 40px;
+                                   left: 120px;
+                                   top: 800px;
+                                   
+                                   background:  #D9D9D9;
+                                   border: 3px solid #000000;
+                                   border-radius: 60px;
+                                   }
+                                 .Rect8{
+                                       
+                                   
+                                   box-sizing: border-box;
+                                   
+                                   position: absolute;
+                                   width: 400px;
+                                   height: 40px;
+                                   left: -3px;
+                                   top: -3px;
+                                   
+                                   background:#DBAFA0 ;
+                                   border: 3px solid #000000;
+                                   border-radius: 60px;
+                                   
+                                   }
+                                   .date_in{
+                                     
+                                   position: absolute;
+                                   width: 300px;
+                                   height: 32px;
+                                   left: 10px;
+                                   top: -5px;
+                                   
+                                   font-family: 'Linden Hill';
+                                   font-style: italic;
+                                   font-weight: 400;
+                                   font-size: 32px;
+                                   line-height: 43px;
+                                   
+                                   color: #000000;
+                                   }
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    position: absolute;
+    width: 100%;
+    top: 1230px;
+    background-color: #704264
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+ .socialIcons a:hover{
+    background-color: #49243E;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+	font-family: 'Linden Hill', serif;
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #49243E;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+	
+} 

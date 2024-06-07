@@ -1,0 +1,586 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    /* html,body{
+  height: 100%;
+}
+.page{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+main{
+  flex: 1 1 auto;
+}*/
+body{
+    background-color:#DBAFA0;
+} 
+
+
+
+
+
+.wellcome{
+    box-sizing:border-box;
+    position: absolute;
+    width: 1410px;
+    height: 420px;
+    
+
+    
+    left: 130px;
+    top: 200px;
+
+
+    border-radius: 60px;
+    background-color: aqua;
+    border-top: 1px solid #000000;
+}
+
+
+
+
+
+
+
+
+.laterG{
+    position: absolute;
+width: 300px;
+height: 118px;
+left: 115px;
+top:20px;
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400px;
+font-size: 32px;
+line-height: 57px;
+
+color: #000000;
+}
+
+
+
+
+
+
+
+
+.character1{
+  /* Rectangle 7 */
+
+position: absolute;
+width: 530px;
+height: 100px;
+left: 60px;
+top: 845px;
+
+/* coll 2 */
+background: #704264;
+border-radius: 35px 35px 0px 0px;
+}
+
+.elf{
+  
+position: absolute;
+width: 160px;
+height: 190px;
+left: 25px;
+top: 15px;
+border-radius: 35px; 
+
+}
+
+.name1{
+    /* Mark */
+
+position: absolute;
+width: 100px;
+height: 45px ;
+left: 220px;
+top: 10px; 
+
+/* header 2 alt */
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.line_name1{
+
+box-sizing: border-box;
+
+position: absolute;
+height: 1px;
+width: 270px;
+left: 220px ;
+top: 60px;
+background: #000000;
+border-top: 1px solid #000000;
+}
+
+.mark{
+ position: absolute;
+width: 100px;
+height: 45px ;
+right: 15px ;
+top: 60px; 
+
+
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.race1{
+    
+position: absolute;
+width: 100px;
+height: 45px ;
+left: 220px;
+top: 90px; 
+
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.line_race1{
+
+box-sizing: border-box;
+
+position: absolute;
+height: 1px;
+width: 270px;
+left: 220px ;
+top: 130px;
+background: #000000;
+border-top: 1px solid #000000;
+}
+
+.race_name1{
+ position: absolute;
+width: 70px;
+height: 45px ;
+right: 15px ;
+top: 130px; 
+
+
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #000000;
+}
+.LVL1{
+    position: absolute;
+width: 100px;
+height: 45px ;
+left: 220px;
+bottom:  10px; 
+
+/* header 2 alt */
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #000000;
+}
+
+
+
+.fairy{
+  
+    position: absolute;
+    width: 160px;
+    height: 190px;
+    left: 25px;
+    top: 15px;
+    border-radius: 35px; 
+    
+    }
+    .race_name2{
+        position: absolute;
+       width: 70px;
+       height: 45px ;
+       right: 50px ;
+       top: 130px; 
+       
+       
+       font-family: 'Linden Hill';
+       font-style: italic;
+       font-weight: 400;
+       font-size: 32px;
+       line-height: 43px;
+       
+       color: #000000;
+       }
+       .race_name3{
+        position: absolute;
+       width: 70px;
+       height: 45px ;
+       right: 90px ;
+       top: 130px; 
+       
+       
+       font-family: 'Linden Hill';
+       font-style: italic;
+       font-weight: 400;
+       font-size: 32px;
+       line-height: 43px;
+       
+       color: #000000;
+       }
+
+
+       .Book{
+        /* Player`s Book */
+
+position: absolute;
+width:450px ;
+height: 100px;
+left: 150px;
+top: 25px;
+
+/* header 0 alt */
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 72px;
+line-height: 97px;
+
+color: #000000;
+
+
+       }
+
+
+.character2{
+  /* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute ;
+width: 530px;
+height: 220px;
+left: 60px;
+top: 945px;
+
+/* coll 3 */
+background: #BB8493;
+border-top: 1px solid #000000;
+}
+.character3{
+  box-sizing: border-box;
+
+position: absolute;
+width: 530px;
+height: 220px;
+left: 60px;
+top: 1165px;
+
+/* coll 3 */
+background: #BB8493;
+border-top: 1px solid #000000;
+}
+.character4{
+  /* Rectangle 11 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 530px;
+height: 220px;
+left: 60px;
+top: 1385px;
+
+/* coll 3 */
+background: #BB8493;
+border-top: 1px solid #000000;
+border-radius: 0px 0px 35px 35px;
+
+}
+
+
+.rect_book_name_1{
+  /* Rectangle 15 */
+
+position: absolute;
+width: 700px;
+height: 100px;
+right: 60px;
+top: 845px;
+
+/* coll 2 */
+background: #704264;
+border-radius: 35px 35px 0px 0px;
+
+}
+.rect_book_name_2{
+    /* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 165px;
+right: 60px;
+top: 945px;
+
+/* coll 3 */
+background: #BB8493;
+border: 1px solid #000000;
+
+}
+.rect_book_name_3{
+  /* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 165px;
+right: 60px;
+top: 1110px;
+
+/* coll 3 */
+background: #BB8493;
+border: 1px solid #000000;
+
+}
+.rect_book_name_4{
+  /* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 165px;
+right: 60px;
+top: 1275px;
+
+/* coll 3 */
+background: #BB8493;
+border: 1px solid #000000;
+
+}
+.rect_book_name_5{
+  /* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 165px;
+right: 60px;
+top: 1440px;
+
+/* coll 3 */
+background: #BB8493;
+border: 1px solid #000000;
+border-radius: 0px 0px 35px 35px;
+
+}
+
+
+.Main_book{
+    position: absolute;
+    width: 300px;
+    height: 118px;
+    left: 200px;
+    top:20px;
+    font-family: 'Linden Hill';
+    font-style: italic;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 57px;
+    
+    color: #000000;
+}
+
+
+/* Header */
+header{
+	/* Rectangle 1 */
+
+position: absolute 0;
+width: 100%;
+height: 90px;
+left: 0px;
+top: 0px;
+
+/* coll 1 */
+background: #49243E;
+
+}
+h1{
+    /* CharSheet */
+position: absolute;
+width: 254px;
+height: 10px;
+left: 135px;
+top: 5px;
+
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 72px;
+line-height: 97px;
+
+color: #FFFFFF;
+}
+.menu{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 0px;
+top: 0px;
+}
+.profile_icon{
+position: absolute;
+top: 5px;
+right: 20px;
+}
+
+ .later{
+  /* Нещодавні персонажі */
+
+position: absolute;
+width: 343px;
+height: 32px;
+left: calc(50% - 343px/2 - 615.5px);
+top: 879px;
+
+/* header 2 alt */
+font-family: 'Linden Hill';
+font-style: italic;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+/* footer */
+footer{
+    width: 100%;
+    position: absolute;
+    top: 1650px;
+    background-color: #704264
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+ .socialIcons a:hover{
+    background-color: #49243E;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+	font-family: 'Linden Hill', serif;
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #49243E;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+	
+} 
